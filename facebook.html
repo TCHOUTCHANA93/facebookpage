@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="facebook.css">
+</head>
+<body>
+    <header class="entete">
+          <div>
+             <p class="gras"><strong>Facebook</strong></p>
+          </div>
+          <ul>
+            <li>
+                  <label class="haut" for="mail">Email or Phone</label><br>
+                  <input class="E" type="mail" name="mail" id="mail" >
+            </li>
+            <li>
+                   <label class="haut" for="password">Password</label><br>
+                  <input class="F" type="text" name="password" id="password"><br>
+                  <label class="pwd" for="password">Forgot account?</label>
+            </li>
+            <li>
+            <p class="login">Log In</p>
+           </li>
+       </ul>
+    </header>   
+    
+    <div class="corps">
+          <section class="gauche">
+          <p class="gras"><strong>Connect with freinds and the <br>world around you on Facebook </strong></p>
+          <div class="test">         
+            <div>
+               <img src="see.png"  alt="livre" width="40px" height="40px" >
+               <strong > See photos and updates</strong>
+              <span class="grey" > from freinds in News </span>
+           </div>
+           <br><br>
+           <div>
+             <img src="share.png" alt="screen" width="40px" height="40px" > 
+             <strong >  Share what's new</strong> 
+             <span class="grey" > in your life on your Timeline. </span>
+           </div>
+           <br><br>
+           <div>
+              <img src="find.png" alt="les3" width="40px" height="40px" >
+              <strong> find more</strong>
+              <span class="grey" > of what you're looking for with Facebook Search. </span>
+           </div>
+          </div>
+          </section>
+          <section class="droite">
+            <div>
+              <p class="gras"><strong>Sign Up </strong> <br>
+              <strong  class="sizz" >it's free and always will be</strong>  
+            </p>
+            <form method="post" action="get.php">
+              <p>
+                <input class="A" type="text" placeholder="First name" >
+                <input class="B" type="text" placeholder="Last name" >
+              </p>
+              <p>
+                <input class="C" type="text" placeholder="Mobile number or email"  >
+              </p>
+             <p>
+                <input class="D" type="text"  placeholder="New password" >
+              </p>
+            </form>
+      
+            <form method="POST" action="post.php">
+             <p>
+              <label class="G" class="sizz" class="grey" for="Birthday">Birthday</label> <br>
+              <select type="" name="Birthday" id="Birthday">
+                <option value="jan">jan</option>
+                <option value="feb">feb</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="may">May</option>
+                <option value="jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="aug">Aug</option>
+                <option value="sept">sept</option>
+                <option value="oct">oct</option>
+                <option value="nov">Nov</option>
+                <option value="dec">Dec</option>
+              </select>
+              <input class="H" type="number" min="1" max="31" >
+              <input classe="I" type="number" min="1900" max="2021" >
+              <img src="qstion.jpg" alt="question" width="15px" height="15px">
+              <p>
+            </form>
+            <form method="POST" action="post.php">
+             <p> <span  class="grey"> Gender </span> <br>
+                <input  type="radio" value="Femele" name="Femele">
+                <label class="siz" for="femele">Femele</label>
+                <input  type="radio" value="Male" name="Male">
+                <label class="siz" for="male">Male</label>
+                <input type="radio" value="Custum" name="Custum">
+                <label class="siz" for="Custum">Custum</label>
+                <img src="qstion.jpg" alt="question" width="15px" height="15px" >
+                 <br> <br>
+                 <span class="gray"> By clicking Sign Up, you agree to our <span class="blue">Teams,Data Policy</span> <br>
+                 and <span class="blue">Cookies Policy.</span> You may receive SMS Notification from <br>
+                 us and can opt out any time. </span>
+             </p>        
+            </form>
+            <p class="signup">Sign Up</p>
+            <p class="foot">
+               <span class="blue">Create a Page</span> for a celebrity, band or business.
+             </p>
+           </div>
+           </section>
+    </div>
+
+</body>
+</html>
